@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="240" height="14" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="mariotileset" tilewidth="16" tileheight="16" spacing="2">
+  <image source="mariotileset.png" trans="ff00ff" width="485" height="546"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="2" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="29">
+   <animation>
+    <frame tileid="29" duration="300"/>
+    <frame tileid="56" duration="300"/>
+    <frame tileid="83" duration="300"/>
+    <frame tileid="56" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="30">
+   <animation>
+    <frame tileid="30" duration="300"/>
+    <frame tileid="57" duration="300"/>
+    <frame tileid="84" duration="300"/>
+    <frame tileid="57" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="31">
+   <animation>
+    <frame tileid="31" duration="300"/>
+    <frame tileid="58" duration="300"/>
+    <frame tileid="85" duration="300"/>
+    <frame tileid="58" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="81">
+   <animation>
+    <frame tileid="81" duration="0"/>
+    <frame tileid="1" duration="1"/>
+    <frame tileid="2" duration="1"/>
+    <frame tileid="3" duration="1"/>
+   </animation>
+  </tile>
+  <tile id="83">
+   <animation>
+    <frame tileid="56" duration="300"/>
+    <frame tileid="83" duration="300"/>
+    <frame tileid="56" duration="300"/>
+    <frame tileid="29" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="167">
+   <animation>
+    <frame tileid="167" duration="100"/>
+    <frame tileid="168" duration="100"/>
+    <frame tileid="169" duration="100"/>
+    <frame tileid="168" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="240" height="14">
+  <data encoding="base64" compression="zlib">
+   eJztmNlNxDAURU0kukAwBbCVwB/b71TAWgXbfAFKAaxf9EELTB3QBBcpRpZl+zmemDjhHulqonh7yeRo4lGKEEIIIYSQYfHWdwGEkGTe+y6AEJLMGP2t+i6gUJaE+Pqm3s+243y16Laqiat9bNRNJIbq70oTQsZGregvIUOkVv/D3x/oLxkTtrsp/q5jc7GBbCJbyHbBmw17f6X3SOZnDj6V2vlCuu6bA/teLCfO4TrnOl9FHEtzh+oI9a89xxK2K23Gasz/ClKeO5e7Kf7uYvE9ZB85QA4L9jcXknMfaJtHOom+at5RXcSPy8GY59/lSuzYrvC5m+LvEXw9Rk6QU+QMOR+Jw7G/hZKf9LcsQg6GHPC5Io1d9J3KHB9yN8XfC7h6iVwh18gNMivE3ymy1mQi9F119In1zuyn15x42lPmkuqfCu05cV1v6hyx39Ui12s/73pNyYOQK/Z5uzb7+29bvx4vuRv7/mDyAFcfkSfkGXlBXjP5e8f85t64L7c9rfvXa5eUvu7/kPMN+OPqhA==
+  </data>
+ </layer>
+</map>
