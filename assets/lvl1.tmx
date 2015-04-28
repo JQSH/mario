@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="240" height="14" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="mariotileset" tilewidth="16" tileheight="16" spacing="2">
+  <image source="mariotileset.png" trans="ff00ff" width="480" height="544"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="2" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="29">
+   <animation>
+    <frame tileid="29" duration="300"/>
+    <frame tileid="56" duration="300"/>
+    <frame tileid="83" duration="300"/>
+    <frame tileid="56" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="30">
+   <animation>
+    <frame tileid="30" duration="300"/>
+    <frame tileid="57" duration="300"/>
+    <frame tileid="84" duration="300"/>
+    <frame tileid="57" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="31">
+   <animation>
+    <frame tileid="31" duration="300"/>
+    <frame tileid="58" duration="300"/>
+    <frame tileid="85" duration="300"/>
+    <frame tileid="58" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="81">
+   <animation>
+    <frame tileid="81" duration="0"/>
+    <frame tileid="1" duration="1"/>
+    <frame tileid="2" duration="1"/>
+    <frame tileid="3" duration="1"/>
+   </animation>
+  </tile>
+  <tile id="83">
+   <animation>
+    <frame tileid="56" duration="300"/>
+    <frame tileid="83" duration="300"/>
+    <frame tileid="56" duration="300"/>
+    <frame tileid="29" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="167">
+   <animation>
+    <frame tileid="167" duration="100"/>
+    <frame tileid="168" duration="100"/>
+    <frame tileid="169" duration="100"/>
+    <frame tileid="168" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="781" name="mariotiles" tilewidth="16" tileheight="16" spacing="2">
+  <image source="mariotiles.png" trans="ff00ff" width="480" height="544"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="240" height="14">
+  <data encoding="base64" compression="zlib">
+   eJztl9lNxDAURS0lv6OpI4PE0gGfLFWwNsHaAYwQawfUQQvQBrTARUzAsrzljTOJrXukK40SO352fDSxUoQQQgghhOTFazV0BYQQKW/0l5BsKdHfaYFzSsGk8sfVVrqeXfu5amnvTRex3S+Nu+o3IUr0l5Ccad2lv4Tkhe4u/SUkH0x3pf6u10ptIJvIVp2+zlSY56uJdj7q85z0WantLyR12z5IsRau86jtuv5OXL9Dz/bV4Wuv7/eYva+3lfY1a5Outc1dqb87cHYX2UP2R+xvX4Sce8e9j0gnu7QlcmwOxux/myuxfVPhclfi7wF8PUSOkGPkBDktxOHY/8KQc/R3XPgc9DngciXUd9lvKr2/z12Jv2dw9Ry5QC6RK+R6JP42qHW2yFpgbo2lTaxLervGMp7U39j6bbWvCtt8pc9Y5l3FYu73dsyQBz5XzOuhfdS1/rZ/yN3Y7wede7j6gDwiT8gz8lL/1zlLlJ/53jJ/mWvv4WagcVc99pgy1PrnnG9RUv6f
+  </data>
+ </layer>
+</map>

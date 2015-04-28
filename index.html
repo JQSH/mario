@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -63,3 +64,41 @@ $ git checkout gh-pages
   </body>
 </html>
 
+=======
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Super Mario Bros</title>
+	<script src="phaser.js"></script>
+	<script src="Boot.js"></script>
+	<script src="Preloader.js"></script>
+	<script src="MainMenu.js"></script>
+	<script src="Game.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        canvas {
+        	display : block;
+            margin : auto;
+        }
+    </style>
+</head>
+    
+<body>
+    <script type="text/javascript">
+        window.onload = function() {
+            var game = new Phaser.Game(256, 224, Phaser.CANVAS, '', null, false, false);
+            game.state.add('Boot', BasicGame.Boot);
+            game.state.add('Preloader', BasicGame.Preloader);
+            game.state.add('MainMenu', BasicGame.MainMenu);
+            game.state.add('Game', BasicGame.Game);
+            // Boot up
+            game.state.start('Boot');
+        };
+    </script>
+</body>
+</html>
+>>>>>>> master

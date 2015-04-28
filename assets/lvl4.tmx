@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="240" height="14" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="mariotiles" tilewidth="16" tileheight="16" spacing="2">
+  <image source="mariotiles.png" trans="ff00ff" width="480" height="544"/>
+ </tileset>
+ <tileset firstgid="781" name="mariot" tilewidth="16" tileheight="16" spacing="2">
+  <image source="mariot.png" trans="ff00ff" width="480" height="544"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="240" height="14">
+  <data encoding="base64" compression="zlib">
+   eJztl+tNwzAUhS0lf6vOkSIV2ICfPKagPJbgOQISKq8NmKMrlDVgBQ6iAcvyK7dOG1vnk45UJXZ87fhTY6UIIYQQQgjJi/dq2xUQQqQs6C8h2VKiv+MC55SCUeWPq610Pbv2c9XS3huvYrtfGo/Vb0KU6C8hOdO6S38JyQvdXfpLSD6Y7kr9ndZK7SJ7yH6dvs5UmOerkXY+6vOc9Fmpgy8kdds+SLEWrvOo7br+Tly/Q8/21eFrr+/3mL2vt5X2NWuTrrXNXam/h3D2CDlGTgbsb1+EnFvi3kekk13aEjk2B2P2v82V2L6pcLkr8fcUvs6QM+QcuUAuC3E49r8w5Bz9HRY+B30OuFwJ9V33m0rv73NX4u8VXL1GbpBb5A65H4i/DWqdrLITmFtjaRPrkt6usYwn9Te2flvtm8I2X+kz1nlXsZj7vR0z5IHPFfN6aB91rb/tH3I39vtBZw5Xn5Bn5AV5Rd7q/zonifIz3wfmLybbGneTYw8pXIPu+QZac/st
+  </data>
+ </layer>
+</map>
