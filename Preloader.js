@@ -18,6 +18,7 @@ BasicGame.Preloader.prototype = {
 		//	These are the assets we loaded in Boot.js
 		//	A nice sparkly background and a loading progress bar
 		this.loadBar = this.add.sprite(190, 250, 'loadBar');
+        this.loadBar.scale.setTo(5);
 
 		//	This sets the loadBar sprite as a loader sprite.
 		this.load.setPreloadSprite(this.loadBar);
@@ -46,7 +47,6 @@ BasicGame.Preloader.prototype = {
         
         // Load audio / music
 		this.load.audio('jump', 'assets/jump.wav');
-		this.load.audio('longjump', 'assets/longjump.wav');
 		this.load.audio('collect', 'assets/coin.wav');
 		this.load.audio('break', 'assets/break.wav');
         this.load.audio('bump', 'assets/bump.wav');
