@@ -3,7 +3,7 @@
 'use strict';
 
 BasicGame.Preloader = function (game) {
-
+    
 	this.background = null;
 	this.loadBar = null;
 
@@ -18,7 +18,6 @@ BasicGame.Preloader.prototype = {
 		//	These are the assets we loaded in Boot.js
 		//	A nice sparkly background and a loading progress bar
 		this.loadBar = this.add.sprite(190, 250, 'loadBar');
-        this.loadBar.scale.setTo(5);
 
 		//	This sets the loadBar sprite as a loader sprite.
 		this.load.setPreloadSprite(this.loadBar);

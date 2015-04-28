@@ -41,7 +41,7 @@ BasicGame.Boot.prototype = {
 
         //  Here we load the assets required for our preloader (in this case a background and a loading bar)
         this.game.stage.backgroundColor = "FFFFFF";
-        this.load.image('loadBar', 'assets/mushroom.png');
+        this.load.image('loadBar', 'assets/bar.png');
 
     },
 
