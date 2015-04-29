@@ -3,7 +3,7 @@
 'use strict';
 
 var BasicGame = {
-    pixel: { scale: 3, canvas: null, context: null, width: 0, height: 0 },
+    pixel: { scale: 5, canvas: null, context: null, width: 0, height: 0 },
 };
 
 
